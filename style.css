@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+   font-family: Arial, Helvetica, sans-serif;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    /* max-height: 100vh; */
+    /* max-width: 100vh; */
+    /* background-color: antiquewhite; */
+}
+#nav{
+    height: 80px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding: 0 0px;
+    /* margin-bottom: 30px; */
+    position: fixed;
+    top: 0%;
+    background-color: white;
+}
+#nav img{
+    height:20px;
+    width: 20px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+#nav #first{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#nav #first h3{
+    font-weight: 200;
+    font-size: 16px;
+}
+#nav #second{
+    display: flex;
+    align-items: center;
+}
+#nav #second input{
+    height: 40px;
+    width: 825px;
+    border-radius: 50px;
+    /* border: white solid 1px; */
+    /* border: cornflowerblue solid 2px; */
+    border: none;
+    padding: 0 20px;
+    background-color: #dadada8b;
+    color: black;
+    font-weight: 100;
+    margin-left: 20px;
+}
+#nav #second #all{
+    display: flex;
+    background-color: #dadada;
+    padding: 12px;
+    border-radius: 50px;
+    position: absolute;
+    left: 977px;
+    font-size: 14px;
+    font-weight: 100;
+}
+.searchdata{
+    width: 60%; /* Equivalent to 'w-[98%]' */
+    min-height: 5rem; /* Equivalent to 'min-h-20' (Tailwind's 'h-20' = 5rem) */
+    background-color: white;
+    position: absolute;
+    top: 10.5%;
+    z-index: 99999;
+    display: none; 
+  left: 51%; 
+  transform: translateX(-50%); 
+  border-radius: 0.375rem; 
+  padding-top: 0.75rem; 
+  padding-bottom: 0.75rem; 
+  /* display: flex; */
+  /* gap: 20px; */
+}
+.searchdata h5{
+    font-weight: 100;
+    margin-bottom: 10px;
+    
+}
+#third{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    gap: 20px;
+}
+#third #circle img{
+    height: 25px;
+    width: 25px;
+    /* background-color: blue; */
+    border-radius: 50px;
+    object-fit: cover;
+}
+#third i{
+    color: #dadada;
+    font-size: 19px;
+}
+#overlay{
+    display: none; 
+  position: fixed; 
+  width: 100%; 
+  height: 100vh; 
+  background-color: rgba(0, 0, 0, 0.8);
+    top: 13.5%;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    /* background-color: rebeccapurple; */
+    margin-top: 120px; 
+    padding: 0 50px;
+    
+}
+.container img{
+    
+    width: 200px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+    margin: 10px;
+}
+/* <div class="overlay hidden fixed w-full h-screen bg-black/80"></div> */
+
